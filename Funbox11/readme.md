@@ -44,7 +44,7 @@ A lot of ports open here, FTP, SSH, SMTP, HTTP, POP3, Samba and IMAP. Port 21 im
 
 Checked port 80 in the browser just to confirm the box, it resolves to `funbox11` and shows the Funbox: Scriptkiddie landing page:
 
-![homepage](screenshots/homepage.png)
+![homepage](homepage.png)
 
 ### Phase 2: Exploitation
 
@@ -83,7 +83,7 @@ msf exploit(unix/ftp/proftpd_133c_backdoor) > exploit
 
 Session opened straight away, and it came back as a root shell, no privilege escalation needed on this box:
 
-![exploit](screenshots/exploit.png)
+![exploit](exploit.png)
 
 ### Phase 3: Flag
 
@@ -101,6 +101,6 @@ Please, tweet this to: @0815R2d2
 Thank you ...
 ```
 
-![flag](screenshots/flag.png)
+![flag](flag.png)
 
 Root obtained straight through the ProFTPD backdoor, no privilege escalation chain required for this machine.
